@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "puzzle", "puzzle", "{F7F618DC-786E-436D-8FB7-49A34EE39492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "template", "template", "{71972D37-C1AD-48A6-9BC9-119694AD9626}"
+	ProjectSection(SolutionItems) = preProject
+		puzzle\logstack.h = puzzle\logstack.h
+		puzzle\order.h = puzzle\order.h
+		puzzle\puzzle.h = puzzle\puzzle.h
+		puzzle\reorderer.h = puzzle\reorderer.h
+		puzzle\solver.h = puzzle\solver.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fifteen", "fifteen\fifteen.vcxproj", "{A35E85D6-5B95-43C3-A08B-419FBBD9B6AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudoku", "sudoku\Sudoku.vcxproj", "{11D63D71-00A3-4078-90D7-BC94ACFCF4B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freecell", "freecell\freecell.vcxproj", "{81A660DB-7607-479E-81F1-903952884569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35E85D6-5B95-43C3-A08B-419FBBD9B6AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A35E85D6-5B95-43C3-A08B-419FBBD9B6AE}.Debug|Win32.Build.0 = Debug|Win32
+		{A35E85D6-5B95-43C3-A08B-419FBBD9B6AE}.Release|Win32.ActiveCfg = Release|Win32
+		{A35E85D6-5B95-43C3-A08B-419FBBD9B6AE}.Release|Win32.Build.0 = Release|Win32
+		{11D63D71-00A3-4078-90D7-BC94ACFCF4B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11D63D71-00A3-4078-90D7-BC94ACFCF4B1}.Debug|Win32.Build.0 = Debug|Win32
+		{11D63D71-00A3-4078-90D7-BC94ACFCF4B1}.Release|Win32.ActiveCfg = Release|Win32
+		{11D63D71-00A3-4078-90D7-BC94ACFCF4B1}.Release|Win32.Build.0 = Release|Win32
+		{81A660DB-7607-479E-81F1-903952884569}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81A660DB-7607-479E-81F1-903952884569}.Debug|Win32.Build.0 = Debug|Win32
+		{81A660DB-7607-479E-81F1-903952884569}.Release|Win32.ActiveCfg = Release|Win32
+		{81A660DB-7607-479E-81F1-903952884569}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71972D37-C1AD-48A6-9BC9-119694AD9626} = {F7F618DC-786E-436D-8FB7-49A34EE39492}
+	EndGlobalSection
+EndGlobal
